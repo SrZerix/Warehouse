@@ -1,0 +1,85 @@
+*{
+    font-family: roboto;
+}
+
+nav a{
+  color: #212529;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+
+.infoLogin{
+    display:flex;
+    /*font-family:sans-serif;*/
+}
+
+#errorMensaje{
+    background-color:grey;
+    width: 50%;
+}
+
+#tablaInsEst{
+    border-radius:40px;
+}
+
+
+#tablaInsEst thead{
+    background-color: lightgrey;
+}
+
+#tablaInsEst tbody{
+    background-color: grey;
+}
+
+header{
+    background-color: grey;
+    opacity:0.9;
+}
+
+#loginHead{
+    background-color: lightgrey;
+}
+
+.loginBody{
+    background-color: grey;
+}
+
+#login{
+   /* background-color: bisque; */
+    width:30%;
+    padding: 0 !important; 
+}
+
+#rowLogin{
+    min-width: 100%;
+
+}
+
+#inputBoton{
+    color: grey;
+}
+
+#cuerpo{
+    min-height: 100vh;
+    background-image: url("Imagenes/ikea.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cuerpo:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:-1;
+    background-color: rgba(0,0,0, .5);
+}

@@ -1,0 +1,12 @@
+app
+
+usuario: root
+
+pass: 22
+
+
+sql
+
+usuario: root
+
+pass: 1234

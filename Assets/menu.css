@@ -1,0 +1,147 @@
+*{
+    font-family: roboto;
+}
+
+input::placeholder{
+    text-align: center;
+    color:#000 !important;
+}
+
+input{
+    text-align: center;
+    border:none;
+}
+
+.form-control{
+    background-color: rgba(   170, 181, 213  ,0.8) !important;
+    border:none !important;
+    color:#000 !important;
+}
+
+.btn{
+    background-color: rgba(   170, 181, 213  ,0.8) !important;
+}
+
+nav a{
+  color: #212529;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+#tablaCajas thead, #tablaCajasConf thead{
+       background-color: lightgrey;
+}
+
+#tablaCajas td{
+      border:none !important;
+      border-bottom: solid 2px #444 !important;
+}
+
+#tablaCajasConf tr{
+      border:none !important;
+      border-bottom: solid 2px #444 !important;
+}
+
+#tablaCajas tbody td, #tablaCajas tbody th, #tablaCajasConf tbody td, #tablaCajasConf tbody th{
+     background-color: grey;
+               border:solid 2px;  
+
+}
+
+table{
+    border-collapse: collapse !important;
+}
+
+#tablaList{
+    min-width: 80%;
+}
+
+#primeraRow{
+    border-bottom: solid 2px;
+    background-color: #999999;
+}
+
+#segundaRow{
+    background-color: #CCC;
+}
+
+#tablaList{
+    border-radius:40px;
+}
+
+
+#tablaList thead{
+    background-color: lightgrey;
+}
+
+#tablaList tbody{
+    background-color: grey;
+}
+
+.infoLogin{
+    display:flex;
+    /*font-family:sans-serif;*/
+}
+
+#errorMensaje{
+    background-color:grey;
+}
+
+#tablaInsEst{
+    border-radius:40px;
+}
+
+#tablaInsEst thead{
+    background-color: lightgrey;
+}
+
+#tablaInsEst tbody{
+    background-color: grey;
+}
+
+header{
+    background-color: grey;
+    opacity:0.9;
+}
+
+#loginHead{
+    background-color: lightgrey;
+}
+
+.loginBody, #nav{
+    background-color: lightgrey;
+}
+
+#login{
+   /* background-color: bisque; */
+    width:26%;
+    padding: 0 !important;
+}
+
+#inputBoton{
+    color: grey;
+}
+
+#cuerpo{
+    min-height: 100vh;
+    background-image: url("Imagenes/ikea.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cuerpo:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:-1;
+    background-color: rgba(0,0,0, .5);
+}
